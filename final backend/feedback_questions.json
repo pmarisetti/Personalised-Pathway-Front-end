@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "name": "Feedback Survey Spec",
+  "meta": {
+    "description": "Structured feedback questions extracted from FeedbackCollection component.",
+    "created": "2025-08-13",
+    "sections_order": ["S1", "S2", "S3", "S4", "S5"],
+    "answer_payload_hint": {
+      "navigation": "string enum",
+      "designExpectations": "string enum",
+      "layoutIntuitive": "string enum",
+      "usefulFeatures": "string[] enums",
+      "featuresExpected": "string enum",
+      "pathwayRelevance": "string enum",
+      "contentFormat": "string enum",
+      "overallSatisfaction": "string enum",
+      "likedMost": "string",
+      "improvements": "string"
+    }
+  },
+  "sections": [
+    {
+      "id": "S1",
+      "title": "App Design & Usability",
+      "questions": [
+        {
+          "id": "S1_NAVIGATION",
+          "key": "navigation",
+          "text": "How easy was it to navigate through the app?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "very-easy", "label": "Very easy" },
+            { "value": "somewhat-easy", "label": "Somewhat easy" },
+            { "value": "neutral", "label": "Neutral" },
+            { "value": "somewhat-difficult", "label": "Somewhat difficult" },
+            { "value": "very-difficult", "label": "Very difficult" }
+          ]
+        },
+        {
+          "id": "S1_DESIGN_EXPECTATIONS",
+          "key": "designExpectations",
+          "text": "Did the app interface meet your expectations in terms of design and clarity?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "strongly-agree", "label": "Strongly agree" },
+            { "value": "agree", "label": "Agree" },
+            { "value": "neutral", "label": "Neutral" },
+            { "value": "disagree", "label": "Disagree" },
+            { "value": "strongly-disagree", "label": "Strongly disagree" }
+          ]
+        },
+        {
+          "id": "S1_LAYOUT_INTUITIVE",
+          "key": "layoutIntuitive",
+          "text": "Was the overall layout and flow of the app intuitive?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "very-intuitive", "label": "Very intuitive" },
+            { "value": "somewhat-intuitive", "label": "Somewhat intuitive" },
+            { "value": "neutral", "label": "Neutral" },
+            { "value": "confusing", "label": "Confusing" },
+            { "value": "very-confusing", "label": "Very confusing" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Feature Usefulness",
+      "questions": [
+        {
+          "id": "S2_USEFUL_FEATURES",
+          "key": "usefulFeatures",
+          "text": "Which of the following features did you find useful? (Select all that apply)",
+          "type": "multi_select",
+          "required": false,
+          "options": [
+            { "value": "clear-learning-goals", "label": "Clear learning goals" },
+            { "value": "personalised-module-suggestions", "label": "Personalised module suggestions" },
+            { "value": "visual-layout-design", "label": "Visual layout/design" },
+            { "value": "none-of-the-above", "label": "None of the above" }
+          ]
+        },
+        {
+          "id": "S2_FEATURES_EXPECTED",
+          "key": "featuresExpected",
+          "text": "Did the app include the features you were expecting based on your preferences?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "yes-fully", "label": "Yes, fully" },
+            { "value": "yes-partially", "label": "Yes, partially" },
+            { "value": "no-missing", "label": "No, it was missing features" },
+            { "value": "not-sure", "label": "I'm not sure / I didn't have expectations" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Learning Pathway Experience",
+      "questions": [
+        {
+          "id": "S3_PATHWAY_RELEVANCE",
+          "key": "pathwayRelevance",
+          "text": "Was the learning pathway that was generated for you relevant to your knowledge and background?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "very-relevant", "label": "Very relevant" },
+            { "value": "somewhat-relevant", "label": "Somewhat relevant" },
+            { "value": "neutral", "label": "Neutral" },
+            { "value": "slightly-off", "label": "Slightly off-target" },
+            { "value": "not-relevant", "label": "Not relevant at all" }
+          ]
+        },
+        {
+          "id": "S3_CONTENT_FORMAT",
+          "key": "contentFormat",
+          "text": "Did the format of the content (videos, text, visuals, etc.) suit your learning style?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "yes-very-well", "label": "Yes, very well" },
+            { "value": "yes-somewhat", "label": "Yes, somewhat" },
+            { "value": "no-not-really", "label": "No, not really" },
+            { "value": "not-applicable", "label": "Not applicable / I didn't engage with the content" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Overall Satisfaction",
+      "questions": [
+        {
+          "id": "S4_OVERALL_SATISFACTION",
+          "key": "overallSatisfaction",
+          "text": "Overall, how satisfied are you with your experience using this tool?",
+          "type": "single_select",
+          "required": true,
+          "options": [
+            { "value": "very-satisfied", "label": "Very satisfied" },
+            { "value": "satisfied", "label": "Satisfied" },
+            { "value": "neutral", "label": "Neutral" },
+            { "value": "dissatisfied", "label": "Dissatisfied" },
+            { "value": "very-dissatisfied", "label": "Very dissatisfied" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Open-Ended Feedback",
+      "questions": [
+        {
+          "id": "S5_LIKED_MOST",
+          "key": "likedMost",
+          "text": "What did you like most about the app?",
+          "type": "long_text",
+          "required": true,
+          "maxLength": 1000,
+          "placeholder": "Share what you enjoyed most about using the app..."
+        },
+        {
+          "id": "S5_IMPROVEMENTS",
+          "key": "improvements",
+          "text": "What would you improve about the app or the learning pathway recommendations?",
+          "type": "long_text",
+          "required": true,
+          "maxLength": 1000,
+          "placeholder": "Share your suggestions for improvements..."
+        }
+      ]
+    }
+  ],
+  "flat_keys_to_ids": {
+    "navigation": "S1_NAVIGATION",
+    "designExpectations": "S1_DESIGN_EXPECTATIONS",
+    "layoutIntuitive": "S1_LAYOUT_INTUITIVE",
+    "usefulFeatures": "S2_USEFUL_FEATURES",
+    "featuresExpected": "S2_FEATURES_EXPECTED",
+    "pathwayRelevance": "S3_PATHWAY_RELEVANCE",
+    "contentFormat": "S3_CONTENT_FORMAT",
+    "overallSatisfaction": "S4_OVERALL_SATISFACTION",
+    "likedMost": "S5_LIKED_MOST",
+    "improvements": "S5_IMPROVEMENTS"
+  },
+  "example_answers_shape": {
+    "navigation": "very-easy",
+    "designExpectations": "agree",
+    "layoutIntuitive": "somewhat-intuitive",
+    "usefulFeatures": ["clear-learning-goals", "visual-layout-design"],
+    "featuresExpected": "yes-partially",
+    "pathwayRelevance": "somewhat-relevant",
+    "contentFormat": "yes-somewhat",
+    "overallSatisfaction": "satisfied",
+    "likedMost": "Clear flow and helpful resources.",
+    "improvements": "More examples for clinicians."
+  }
+}

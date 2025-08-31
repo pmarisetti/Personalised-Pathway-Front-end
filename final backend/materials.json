@@ -1,0 +1,1143 @@
+{
+    "version": "1.0",
+    "meta": {
+        "description": "Learning materials library mapped by module, competency level, and ABC-LD learning phase",
+        "phases": [
+            "Absorb",
+            "Build",
+            "Connect",
+            "Learn",
+            "Do"
+        ],
+        "competency_levels": [
+            "beginner",
+            "intermediate",
+            "expert"
+        ]
+    },
+    "modules": {
+        "statistics": {
+            "beginner": {
+                "Absorb": [
+                    {
+                        "title": "Intro to Descriptive Statistics",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=44MJyNTxaP8",
+                        "duration": "15m",
+                        "description": "A beginner-friendly explanation of mean, median, mode, variance, and standard deviation."
+                    },
+                    {
+                        "title": "Basic Probability Concepts",
+                        "type": "article",
+                        "url": "https://www.khanacademy.org/math/statistics-probability/probability-library",
+                        "description": "Covers the fundamentals of probability relevant to healthcare data."
+                    },
+                    {
+                        "title": "Statistics for Dummies Overview",
+                        "type": "article",
+                        "url": "https://www.dummies.com/article/academics-the-arts/math/statistics/statistics-for-dummies-cheat-sheet-208650/",
+                        "description": "Quick reference guide for basic statistical concepts."
+                    },
+                    {
+                        "title": "Understanding Central Tendency",
+                        "type": "video",
+                        "url": "https://www.osmosis.org/learn/Mean,_median,_and_mode",
+                        "duration": "12m",
+                        "description": "Visual explanation of mean, median, and mode in medical contexts."
+                    },
+                    {
+                        "title": "Introduction to Data Types",
+                        "type": "article",
+                        "url": "https://prajwalkhairnar.medium.com/statistics-for-dummies-101-73a4a96a6c54",
+                        "description": "Understanding categorical vs continuous data in healthcare."
+                    },
+                    {
+                        "title": "Basic Statistical Notation",
+                        "type": "pdf",
+                        "url": "https://learningstatisticswithr.com/book/index.html",
+                        "description": "Learning to read and write statistical formulas."
+                    },
+                    {
+                        "title": "Visualizing Data Distributions",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=1SAq139Aifo",
+                        "duration": "18m",
+                        "description": "Creating and interpreting histograms and box plots."
+                    },
+                    {
+                        "title": "Normal Distribution in Healthcare",
+                        "type": "article",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2238793/",
+                        "description": "Why the bell curve matters in medical research."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "Hands-on: Calculating Descriptive Stats in Python",
+                        "type": "notebook",
+                        "url": "https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.08-Aggregation-and-Grouping.ipynb",
+                        "description": "Step-by-step Python exercises for descriptive statistics."
+                    },
+                    {
+                        "title": "Excel for Healthcare Statistics",
+                        "type": "interactive",
+                        "url": "https://brilliant.org/courses/statistics/",
+                        "description": "Practice basic calculations using spreadsheet tools."
+                    },
+                    {
+                        "title": "Creating Your First Data Visualization",
+                        "type": "notebook",
+                        "url": "https://seeing-theory.brown.edu/basic-probability/index.html",
+                        "description": "Interactive exercises in probability and visualization."
+                    },
+                    {
+                        "title": "Basic Hypothesis Testing Practice",
+                        "type": "interactive",
+                        "url": "https://rss.org.uk/resources/teaching-resources/hands-on-statistics/",
+                        "description": "Hands-on exercises for t-tests and confidence intervals."
+                    },
+                    {
+                        "title": "Statistical Calculator Exercises",
+                        "type": "interactive",
+                        "url": "https://www.geogebra.org/statistics",
+                        "description": "Visual tools for understanding statistical concepts."
+                    },
+                    {
+                        "title": "Introduction to R Programming",
+                        "type": "notebook",
+                        "url": "https://www.datacamp.com/tutorial/r-tutorial-help",
+                        "description": "Getting started with R for statistical analysis."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Case Study: Patient Survey Data Analysis",
+                        "type": "pdf",
+                        "url": "https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf",
+                        "description": "Real-world example applying descriptive statistics to healthcare data."
+                    },
+                    {
+                        "title": "Hospital Length of Stay Analysis",
+                        "type": "case_study",
+                        "url": "https://www.healthdata.gov/dataset/Hospital-Readmissions-Reduction-Program",
+                        "description": "Analyzing patient admission patterns using basic statistics."
+                    },
+                    {
+                        "title": "Vaccine Efficacy Data Interpretation",
+                        "type": "article",
+                        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2034577",
+                        "description": "Understanding clinical trial results through statistics."
+                    },
+                    {
+                        "title": "Emergency Room Wait Time Study",
+                        "type": "pdf",
+                        "url": "https://www.ahrq.gov/data/hcup/index.html",
+                        "description": "Applying descriptive statistics to ER efficiency metrics."
+                    },
+                    {
+                        "title": "Patient Satisfaction Score Analysis",
+                        "type": "case_study",
+                        "url": "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/HospitalQualityInits/HospitalHCAHPS",
+                        "description": "Working with HCAHPS survey data."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "Statistics Study Group Forum",
+                        "type": "forum",
+                        "url": "https://www.reddit.com/r/statistics/",
+                        "description": "Connect with other learners studying healthcare statistics."
+                    },
+                    {
+                        "title": "Weekly Statistics Q&A Sessions",
+                        "type": "webinar",
+                        "url": "https://www.coursera.org/learn/summary-statistics",
+                        "description": "Live sessions for discussing statistical concepts."
+                    },
+                    {
+                        "title": "Peer Review: Data Analysis Projects",
+                        "type": "collaborative",
+                        "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+                        "description": "Share and review statistical analyses with peers."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "Create Your First Statistical Report",
+                        "type": "project",
+                        "url": "https://www.overleaf.com/latex/templates/statistics-report-template/xkqxgwhbznsv",
+                        "description": "Template for creating professional statistical reports."
+                    },
+                    {
+                        "title": "Build a Healthcare Dashboard",
+                        "type": "project",
+                        "url": "https://public.tableau.com/app/learn/how-to-videos",
+                        "description": "Create visualizations of healthcare statistics."
+                    },
+                    {
+                        "title": "Patient Data Summary Project",
+                        "type": "assignment",
+                        "url": "https://github.com/CSSEGISandData/COVID-19",
+                        "description": "Analyze and present COVID-19 statistical data."
+                    }
+                ]
+            },
+            "intermediate": {
+                "Absorb": [
+                    {
+                        "title": "Hypothesis Testing in Healthcare Research",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=SKv7xUvJSpk",
+                        "duration": "20m",
+                        "description": "Understanding p-values and statistical significance in clinical studies."
+                    },
+                    {
+                        "title": "ANOVA for Clinical Trials",
+                        "type": "article",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3724534/",
+                        "description": "Comparing multiple treatment groups effectively."
+                    },
+                    {
+                        "title": "Regression Analysis Fundamentals",
+                        "type": "video",
+                        "url": "https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data",
+                        "duration": "25m",
+                        "description": "Linear and logistic regression in medical research."
+                    },
+                    {
+                        "title": "Survival Analysis Introduction",
+                        "type": "pdf",
+                        "url": "https://www.mayo.edu/research/documents/biostat-80pdf/doc-10027230",
+                        "description": "Time-to-event analysis in clinical studies."
+                    },
+                    {
+                        "title": "Sample Size Calculation",
+                        "type": "article",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2876926/",
+                        "description": "Power analysis for healthcare studies."
+                    },
+                    {
+                        "title": "Multiple Testing Corrections",
+                        "type": "video",
+                        "url": "https://www.coursera.org/lecture/biostatistics/multiple-testing-lJLAD",
+                        "duration": "15m",
+                        "description": "Bonferroni and FDR corrections explained."
+                    },
+                    {
+                        "title": "Non-parametric Tests",
+                        "type": "article",
+                        "url": "https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one",
+                        "description": "When to use Mann-Whitney and Kruskal-Wallis tests."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "ANOVA and Chi-square in Practice",
+                        "type": "notebook",
+                        "url": "https://github.com/statsmodels/statsmodels/blob/main/examples/notebooks/stats_anova.ipynb",
+                        "description": "Implementing hypothesis tests in Python."
+                    },
+                    {
+                        "title": "Regression Modeling Workshop",
+                        "type": "interactive",
+                        "url": "https://www.datacamp.com/courses/intermediate-regression-with-statsmodels-in-python",
+                        "description": "Building and interpreting regression models."
+                    },
+                    {
+                        "title": "Time Series Analysis for Healthcare",
+                        "type": "notebook",
+                        "url": "https://www.kaggle.com/code/robikscube/time-series-forecasting-with-prophet",
+                        "description": "Forecasting patient volumes and trends."
+                    },
+                    {
+                        "title": "Statistical Process Control Charts",
+                        "type": "interactive",
+                        "url": "https://qi.elft.nhs.uk/resource/statistical-process-control-spc-charts/",
+                        "description": "Monitoring healthcare quality metrics."
+                    },
+                    {
+                        "title": "Meta-Analysis Techniques",
+                        "type": "notebook",
+                        "url": "https://cran.r-project.org/web/packages/meta/vignettes/meta-tutorial.pdf",
+                        "description": "Combining results from multiple studies."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Clinical Trial Data Analysis",
+                        "type": "pdf",
+                        "url": "https://clinicaltrials.gov/ct2/resources/download",
+                        "description": "Working with real clinical trial datasets."
+                    },
+                    {
+                        "title": "Healthcare Cost-Effectiveness Analysis",
+                        "type": "case_study",
+                        "url": "https://www.ispor.org/heor-resources/good-practices-for-outcomes-research",
+                        "description": "Economic evaluation of medical interventions."
+                    },
+                    {
+                        "title": "Disease Outbreak Investigation",
+                        "type": "article",
+                        "url": "https://www.cdc.gov/eis/field-epi-manual/index.html",
+                        "description": "Epidemiological analysis of disease patterns."
+                    },
+                    {
+                        "title": "Quality Improvement Project Analysis",
+                        "type": "case_study",
+                        "url": "https://www.ihi.org/resources/Pages/Tools/Quality-Improvement-Essentials-Toolkit.aspx",
+                        "description": "Statistical methods for QI initiatives."
+                    },
+                    {
+                        "title": "Predictive Modeling for Readmissions",
+                        "type": "pdf",
+                        "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps/readmissions-reduction-program",
+                        "description": "Building risk prediction models."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "Clinical Biostatistics Discussion Group",
+                        "type": "forum",
+                        "url": "https://discourse.datamethods.org/",
+                        "description": "Advanced discussions on medical statistics."
+                    },
+                    {
+                        "title": "Journal Club: Statistical Methods",
+                        "type": "webinar",
+                        "url": "https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one",
+                        "description": "Weekly review of statistical papers."
+                    },
+                    {
+                        "title": "Collaborative Research Projects",
+                        "type": "collaborative",
+                        "url": "https://www.kaggle.com/competitions?hostSegmentIdFilter=5",
+                        "description": "Team-based healthcare analytics challenges."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "Publish-Ready Statistical Analysis",
+                        "type": "project",
+                        "url": "https://www.equator-network.org/reporting-guidelines/",
+                        "description": "Create publication-quality statistical reports."
+                    },
+                    {
+                        "title": "Interactive Healthcare Dashboard",
+                        "type": "project",
+                        "url": "https://www.shinyapps.io/",
+                        "description": "Build interactive statistical applications with R Shiny."
+                    },
+                    {
+                        "title": "Research Protocol Development",
+                        "type": "assignment",
+                        "url": "https://www.spirit-statement.org/",
+                        "description": "Design a complete statistical analysis plan."
+                    }
+                ]
+            },
+            "expert": {
+                "Absorb": [
+                    {
+                        "title": "Advanced Regression Models in Epidemiology",
+                        "type": "article",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969119/",
+                        "description": "Multilevel and mixed-effects models for complex data."
+                    },
+                    {
+                        "title": "Bayesian Statistics in Clinical Research",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=3OJEae7Qb_o",
+                        "duration": "45m",
+                        "description": "Advanced Bayesian methods for medical decision-making."
+                    },
+                    {
+                        "title": "Causal Inference in Healthcare",
+                        "type": "pdf",
+                        "url": "https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/",
+                        "description": "Advanced methods for establishing causality."
+                    },
+                    {
+                        "title": "Machine Learning for Biostatistics",
+                        "type": "article",
+                        "url": "https://www.annualreviews.org/doi/10.1146/annurev-statistics-022513-115645",
+                        "description": "Integration of ML with traditional statistics."
+                    },
+                    {
+                        "title": "Advanced Survival Analysis",
+                        "type": "video",
+                        "url": "https://www.coursera.org/learn/survival-analysis-r-medical",
+                        "duration": "60m",
+                        "description": "Competing risks and frailty models."
+                    },
+                    {
+                        "title": "Spatial Statistics in Epidemiology",
+                        "type": "article",
+                        "url": "https://www.sciencedirect.com/science/article/pii/S1877584517300990",
+                        "description": "Geographic analysis of disease patterns."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "Generalized Linear Models in Python",
+                        "type": "notebook",
+                        "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/glm.html",
+                        "description": "Advanced GLM implementation and diagnostics."
+                    },
+                    {
+                        "title": "Bayesian Modeling with PyMC3",
+                        "type": "notebook",
+                        "url": "https://docs.pymc.io/en/v3/pymc-examples/examples/getting_started.html",
+                        "description": "Building complex Bayesian models."
+                    },
+                    {
+                        "title": "Network Analysis in Healthcare",
+                        "type": "interactive",
+                        "url": "https://www.network-science.org/networksciencebook",
+                        "description": "Analyzing healthcare system networks."
+                    },
+                    {
+                        "title": "Genomic Data Analysis",
+                        "type": "notebook",
+                        "url": "https://bioconductor.org/packages/release/workflows/",
+                        "description": "Statistical genomics workflows."
+                    },
+                    {
+                        "title": "Advanced Missing Data Techniques",
+                        "type": "interactive",
+                        "url": "https://stefvanbuuren.name/fimd/",
+                        "description": "Multiple imputation and sensitivity analysis."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Healthcare Policy Impact Analysis",
+                        "type": "pdf",
+                        "url": "https://www.healthaffairs.org/do/10.1377/hpb20180313.901309/full/",
+                        "description": "Evaluating large-scale policy interventions."
+                    },
+                    {
+                        "title": "Precision Medicine Statistical Challenges",
+                        "type": "case_study",
+                        "url": "https://www.nature.com/articles/s41591-018-0165-9",
+                        "description": "Statistical issues in personalized medicine."
+                    },
+                    {
+                        "title": "Real-World Evidence Generation",
+                        "type": "article",
+                        "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence",
+                        "description": "Using observational data for regulatory decisions."
+                    },
+                    {
+                        "title": "Multi-Site Clinical Trial Analysis",
+                        "type": "case_study",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4785054/",
+                        "description": "Handling site effects and heterogeneity."
+                    },
+                    {
+                        "title": "Healthcare AI Validation Studies",
+                        "type": "pdf",
+                        "url": "https://www.nature.com/articles/s41591-020-0793-8",
+                        "description": "Statistical validation of AI models."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "Advanced Biostatistics Research Seminar",
+                        "type": "forum",
+                        "url": "https://www.amstat.org/ASA/Membership/Sections-and-Interest-Groups.aspx",
+                        "description": "Research-level statistical discussions."
+                    },
+                    {
+                        "title": "Methods Development Collaboration",
+                        "type": "collaborative",
+                        "url": "https://www.biometrics-tibs.org/",
+                        "description": "Contributing to statistical methodology."
+                    },
+                    {
+                        "title": "Grant Writing for Statistical Research",
+                        "type": "workshop",
+                        "url": "https://grants.nih.gov/grants/how-to-apply-application-guide.html",
+                        "description": "Developing fundable research proposals."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "Statistical Software Package Development",
+                        "type": "project",
+                        "url": "https://r-pkgs.org/",
+                        "description": "Creating R/Python packages for statistical methods."
+                    },
+                    {
+                        "title": "Methodological Research Publication",
+                        "type": "assignment",
+                        "url": "https://www.biometrics-tibs.org/",
+                        "description": "Publishing novel statistical methods."
+                    },
+                    {
+                        "title": "Clinical Trial Design Consultation",
+                        "type": "project",
+                        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
+                        "description": "Design complex adaptive clinical trials."
+                    }
+                ]
+            }
+        },
+        "machine_learning": {
+            "beginner": {
+                "Absorb": [
+                    {
+                        "title": "Intro to Machine Learning for Healthcare",
+                        "type": "video",
+                        "url": "https://www.coursera.org/learn/ml-healthcare",
+                        "duration": "30m",
+                        "description": "Understanding ML concepts in medical contexts."
+                    },
+                    {
+                        "title": "Python Basics for Data Science",
+                        "type": "article",
+                        "url": "https://www.learnpython.org/",
+                        "description": "Essential Python programming concepts."
+                    },
+                    {
+                        "title": "What is Artificial Intelligence in Medicine?",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=ukzFI9rgwfU",
+                        "duration": "20m",
+                        "description": "Overview of AI applications in healthcare."
+                    },
+                    {
+                        "title": "Introduction to scikit-learn",
+                        "type": "article",
+                        "url": "https://scikit-learn.org/stable/tutorial/basic/tutorial.html",
+                        "description": "Getting started with Python's ML library."
+                    },
+                    {
+                        "title": "Data Preprocessing Fundamentals",
+                        "type": "pdf",
+                        "url": "https://static.realpython.com/python-basics-sample-chapters.pdf",
+                        "description": "Cleaning and preparing healthcare data."
+                    },
+                    {
+                        "title": "Understanding Classification vs Regression",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=1FZ0A1QCMWc",
+                        "duration": "15m",
+                        "description": "Two fundamental types of ML problems."
+                    },
+                    {
+                        "title": "Feature Engineering Basics",
+                        "type": "article",
+                        "url": "https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/",
+                        "description": "Creating meaningful features from raw data."
+                    },
+                    {
+                        "title": "Model Evaluation Metrics Explained",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=QzY57FaENXg",
+                        "duration": "18m",
+                        "description": "Accuracy, precision, recall, and F1-score."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "Hands-on: Building First ML Model in scikit-learn",
+                        "type": "notebook",
+                        "url": "https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb",
+                        "description": "Step-by-step guide to your first ML model."
+                    },
+                    {
+                        "title": "Python Programming Exercises",
+                        "type": "interactive",
+                        "url": "https://www.w3schools.com/python/default.asp",
+                        "description": "Practice Python basics interactively."
+                    },
+                    {
+                        "title": "Data Visualization with Matplotlib",
+                        "type": "notebook",
+                        "url": "https://matplotlib.org/stable/tutorials/introductory/pyplot.html",
+                        "description": "Creating plots to explore healthcare data."
+                    },
+                    {
+                        "title": "Pandas for Healthcare Data",
+                        "type": "interactive",
+                        "url": "https://brilliant.org/courses/programming-python/",
+                        "description": "Data manipulation exercises."
+                    },
+                    {
+                        "title": "Your First Classification Model",
+                        "type": "notebook",
+                        "url": "https://www.kaggle.com/code/dansbecker/your-first-machine-learning-model",
+                        "description": "Predict patient outcomes with decision trees."
+                    },
+                    {
+                        "title": "Cross-Validation Basics",
+                        "type": "interactive",
+                        "url": "https://machinelearningmastery.com/k-fold-cross-validation/",
+                        "description": "Properly evaluating model performance."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Predicting Readmission Risk: A Beginner Case Study",
+                        "type": "pdf",
+                        "url": "https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008",
+                        "description": "Real-world hospital readmission prediction."
+                    },
+                    {
+                        "title": "Diabetes Prediction Project",
+                        "type": "case_study",
+                        "url": "https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database",
+                        "description": "Classic healthcare ML dataset analysis."
+                    },
+                    {
+                        "title": "Heart Disease Classification",
+                        "type": "notebook",
+                        "url": "https://www.kaggle.com/ronitf/heart-disease-uci",
+                        "description": "Predicting cardiovascular disease risk."
+                    },
+                    {
+                        "title": "Medical Appointment No-Shows",
+                        "type": "case_study",
+                        "url": "https://www.kaggle.com/joniarroba/noshowappointments",
+                        "description": "Understanding patient behavior patterns."
+                    },
+                    {
+                        "title": "Healthcare Cost Prediction",
+                        "type": "pdf",
+                        "url": "https://www.kaggle.com/mirichoi0218/insurance",
+                        "description": "Estimating medical insurance costs."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "ML for Healthcare Study Group",
+                        "type": "forum",
+                        "url": "https://www.reddit.com/r/MachineLearning/",
+                        "description": "Connect with other ML beginners."
+                    },
+                    {
+                        "title": "Weekly Python Office Hours",
+                        "type": "webinar",
+                        "url": "https://www.python.org/community/workshops/",
+                        "description": "Get help with coding challenges."
+                    },
+                    {
+                        "title": "Peer Code Review Sessions",
+                        "type": "collaborative",
+                        "url": "https://github.com/topics/healthcare-machine-learning",
+                        "description": "Share and improve ML code together."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "Build Your First ML Web App",
+                        "type": "project",
+                        "url": "https://streamlit.io/gallery",
+                        "description": "Deploy a simple ML model with Streamlit."
+                    },
+                    {
+                        "title": "Healthcare ML Portfolio Project",
+                        "type": "assignment",
+                        "url": "https://github.com/drivendata/cookiecutter-data-science",
+                        "description": "Create a complete ML project from scratch."
+                    },
+                    {
+                        "title": "Patient Risk Calculator",
+                        "type": "project",
+                        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+                        "description": "Build a simple clinical decision support tool."
+                    }
+                ]
+            },
+            "intermediate": {
+                "Absorb": [
+                    {
+                        "title": "Model Evaluation Metrics in Clinical ML",
+                        "type": "article",
+                        "url": "https://www.nature.com/articles/s41746-019-0064-6",
+                        "description": "Understanding sensitivity, specificity, and AUC."
+                    },
+                    {
+                        "title": "Feature Engineering for Healthcare",
+                        "type": "video",
+                        "url": "https://www.coursera.org/lecture/feature-engineering/feature-engineering-for-healthcare-data",
+                        "duration": "25m",
+                        "description": "Advanced feature creation techniques."
+                    },
+                    {
+                        "title": "Handling Imbalanced Medical Data",
+                        "type": "article",
+                        "url": "https://imbalanced-learn.org/stable/",
+                        "description": "Techniques for rare disease prediction."
+                    },
+                    {
+                        "title": "Ensemble Methods in Healthcare",
+                        "type": "pdf",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449919/",
+                        "description": "Random forests and gradient boosting."
+                    },
+                    {
+                        "title": "Time Series for Medical Data",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=6M5VXKLf4D4",
+                        "duration": "35m",
+                        "description": "Analyzing temporal patterns in health records."
+                    },
+                    {
+                        "title": "Natural Language Processing for EHR",
+                        "type": "article",
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371298/",
+                        "description": "Extracting insights from clinical notes."
+                    },
+                    {
+                        "title": "Dimensionality Reduction Techniques",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=bfmFfD2RIcg",
+                        "duration": "28m",
+                        "description": "PCA and t-SNE for medical data."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "Hyperparameter Tuning with GridSearchCV",
+                        "type": "notebook",
+                        "url": "https://scikit-learn.org/stable/modules/grid_search.html",
+                        "description": "Optimizing model performance systematically."
+                    },
+                    {
+                        "title": "Advanced Feature Engineering",
+                        "type": "interactive",
+                        "url": "https://www.kaggle.com/learn/feature-engineering",
+                        "description": "Creating complex features for healthcare."
+                    },
+                    {
+                        "title": "Building Neural Networks with Keras",
+                        "type": "notebook",
+                        "url": "https://keras.io/examples/structured_data/structured_data_classification_from_scratch/",
+                        "description": "Deep learning for tabular medical data."
+                    },
+                    {
+                        "title": "XGBoost for Clinical Prediction",
+                        "type": "interactive",
+                        "url": "https://xgboost.readthedocs.io/en/stable/tutorials/index.html",
+                        "description": "Gradient boosting for healthcare."
+                    },
+                    {
+                        "title": "SHAP for Model Interpretability",
+                        "type": "notebook",
+                        "url": "https://github.com/slundberg/shap",
+                        "description": "Explaining ML predictions to clinicians."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Class Imbalance in Medical Imaging Datasets",
+                        "type": "pdf",
+                        "url": "https://www.kaggle.com/c/diabetic-retinopathy-detection",
+                        "description": "Handling rare disease detection challenges."
+                    },
+                    {
+                        "title": "ICU Mortality Prediction",
+                        "type": "case_study",
+                        "url": "https://physionet.org/content/mimiciii/1.4/",
+                        "description": "Working with MIMIC-III critical care data."
+                    },
+                    {
+                        "title": "Drug Discovery ML Pipeline",
+                        "type": "article",
+                        "url": "https://www.nature.com/articles/s41573-019-0024-5",
+                        "description": "ML in pharmaceutical research."
+                    },
+                    {
+                        "title": "Medical Image Classification",
+                        "type": "notebook",
+                        "url": "https://www.kaggle.com/c/chest-xray-pneumonia",
+                        "description": "Detecting pneumonia from chest X-rays."
+                    },
+                    {
+                        "title": "Clinical NLP for Discharge Summaries",
+                        "type": "case_study",
+                        "url": "https://www.i2b2.org/NLP/DataSets/",
+                        "description": "Extracting information from clinical text."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "Healthcare ML Research Forum",
+                        "type": "forum",
+                        "url": "https://discourse.datamethods.org/c/machine-learning/",
+                        "description": "Advanced ML discussions for healthcare."
+                    },
+                    {
+                        "title": "Medical AI Paper Discussion Group",
+                        "type": "webinar",
+                        "url": "https://www.meetup.com/topics/health-tech/",
+                        "description": "Weekly review of latest ML papers."
+                    },
+                    {
+                        "title": "Kaggle Healthcare Competitions",
+                        "type": "collaborative",
+                        "url": "https://www.kaggle.com/competitions?hostSegmentIdFilter=5",
+                        "description": "Team-based ML challenges."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "End-to-End ML Pipeline",
+                        "type": "project",
+                        "url": "https://mlflow.org/docs/latest/tutorials-and-examples/index.html",
+                        "description": "Build production-ready ML system."
+                    },
+                    {
+                        "title": "Clinical Decision Support API",
+                        "type": "project",
+                        "url": "https://fastapi.tiangolo.com/tutorial/",
+                        "description": "Deploy ML model as REST API."
+                    },
+                    {
+                        "title": "Model Monitoring Dashboard",
+                        "type": "assignment",
+                        "url": "https://www.evidentlyai.com/",
+                        "description": "Track model performance over time."
+                    }
+                ]
+            },
+            "expert": {
+                "Absorb": [
+                    {
+                        "title": "Deep Learning Architectures for Radiology",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+                        "duration": "45m",
+                        "description": "Advanced CNNs for medical imaging."
+                    },
+                    {
+                        "title": "Transformer Models for Clinical NLP",
+                        "type": "article",
+                        "url": "https://arxiv.org/abs/2106.09462",
+                        "description": "BERT and GPT for medical text."
+                    },
+                    {
+                        "title": "Federated Learning in Healthcare",
+                        "type": "pdf",
+                        "url": "https://www.nature.com/articles/s41591-020-0824-5",
+                        "description": "Privacy-preserving distributed ML."
+                    },
+                    {
+                        "title": "Graph Neural Networks for Drug Discovery",
+                        "type": "video",
+                        "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+                        "duration": "50m",
+                        "description": "Molecular structure analysis with GNNs."
+                    },
+                    {
+                        "title": "Reinforcement Learning for Treatment Planning",
+                        "type": "article",
+                        "url": "https://www.nature.com/articles/s41591-018-0310-5",
+                        "description": "RL for personalized medicine."
+                    },
+                    {
+                        "title": "Causal ML for Healthcare",
+                        "type": "pdf",
+                        "url": "https://arxiv.org/abs/2002.09955",
+                        "description": "Treatment effect estimation."
+                    },
+                    {
+                        "title": "Multi-Modal Learning in Medicine",
+                        "type": "article",
+                        "url": "https://www.nature.com/articles/s41551-021-00827-5",
+                        "description": "Combining imaging, text, and genomics."
+                    }
+                ],
+                "Build": [
+                    {
+                        "title": "Transfer Learning for Clinical NLP",
+                        "type": "notebook",
+                        "url": "https://huggingface.co/blog/how-to-train",
+                        "description": "Fine-tuning BERT for medical text."
+                    },
+                    {
+                        "title": "3D Medical Image Segmentation",
+                        "type": "notebook",
+                        "url": "https://github.com/Project-MONAI/tutorials",
+                        "description": "Advanced medical imaging with MONAI."
+                    },
+                    {
+                        "title": "Generative Models for Synthetic Medical Data",
+                        "type": "interactive",
+                        "url": "https://github.com/sdv-dev/SDV",
+                        "description": "Creating synthetic patient data."
+                    },
+                    {
+                        "title": "AutoML for Clinical Research",
+                        "type": "notebook",
+                        "url": "https://github.com/autogluon/autogluon",
+                        "description": "Automated model selection and tuning."
+                    },
+                    {
+                        "title": "Interpretable Deep Learning",
+                        "type": "interactive",
+                        "url": "https://captum.ai/tutorials/",
+                        "description": "Making black-box models explainable."
+                    }
+                ],
+                "Connect": [
+                    {
+                        "title": "Ethical AI Deployment in Hospitals",
+                        "type": "pdf",
+                        "url": "https://www.nature.com/articles/s41591-020-0793-8",
+                        "description": "Real-world AI implementation challenges."
+                    },
+                    {
+                        "title": "Multi-Site Learning Without Data Sharing",
+                        "type": "case_study",
+                        "url": "https://www.nature.com/articles/s41586-021-03430-5",
+                        "description": "Federated learning case studies."
+                    },
+                    {
+                        "title": "AI for Rare Disease Diagnosis",
+                        "type": "article",
+                        "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1615014",
+                        "description": "Few-shot learning in clinical practice."
+                    },
+                    {
+                        "title": "Continuous Learning in Production",
+                        "type": "case_study",
+                        "url": "https://arxiv.org/abs/2110.03395",
+                        "description": "Handling distribution shift in healthcare."
+                    },
+                    {
+                        "title": "AI-Assisted Clinical Trials",
+                        "type": "pdf",
+                        "url": "https://www.fda.gov/science-research/science-and-research-special-topics/artificial-intelligence-and-machine-learning-aiml-drug-development",
+                        "description": "ML in drug development pipeline."
+                    }
+                ],
+                "Learn": [
+                    {
+                        "title": "Medical AI Research Collaboration",
+                        "type": "forum",
+                        "url": "https://www.synapse.org/",
+                        "description": "Platform for collaborative biomedical research."
+                    },
+                    {
+                        "title": "Advanced Deep Learning Seminar",
+                        "type": "webinar",
+                        "url": "https://sites.google.com/view/icml2023/",
+                        "description": "Cutting-edge ML research discussions."
+                    },
+                    {
+                        "title": "Clinical AI Validation Network",
+                        "type": "collaborative",
+                        "url": "https://www.turing.ac.uk/research/research-programmes/health-and-medical-sciences",
+                        "description": "Multi-institutional validation studies."
+                    }
+                ],
+                "Do": [
+                    {
+                        "title": "Production ML System Architecture",
+                        "type": "project",
+                        "url": "https://www.tensorflow.org/tfx",
+                        "description": "Building scalable ML pipelines with TFX."
+                    },
+                    {
+                        "title": "Research Paper Publication",
+                        "type": "assignment",
+                        "url": "https://www.nature.com/natmachintell/",
+                        "description": "Publishing novel ML methods for healthcare."
+                    },
+                    {
+                        "title": "Open-Source Medical AI Tool",
+                        "type": "project",
+                        "url": "https://grand-challenge.org/",
+                        "description": "Contributing to medical AI community."
+                    }
+                ]
+            }
+        }
+    },
+    "stakeholder_resources": {
+        "student": {
+            "supplementary": [
+                {
+                    "title": "Study Guide Templates",
+                    "type": "template",
+                    "url": "https://www.notion.so/templates/student",
+                    "description": "Organize your learning journey."
+                },
+                {
+                    "title": "Exam Preparation Checklist",
+                    "type": "pdf",
+                    "url": "https://www.khanacademy.org/test-prep",
+                    "description": "Structured approach to test preparation."
+                },
+                {
+                    "title": "Academic Writing Guide",
+                    "type": "article",
+                    "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/",
+                    "description": "Writing statistical reports in APA format."
+                },
+                {
+                    "title": "Student Project Portfolio",
+                    "type": "template",
+                    "url": "https://github.com/topics/portfolio-template",
+                    "description": "Showcase your data science projects."
+                },
+                {
+                    "title": "Thesis Template",
+                    "type": "template",
+                    "url": "https://www.overleaf.com/latex/templates/thesis",
+                    "description": "LaTeX template for thesis writing."
+                }
+            ]
+        },
+        "academic": {
+            "supplementary": [
+                {
+                    "title": "Curriculum Development Guide",
+                    "type": "pdf",
+                    "url": "https://www.aamc.org/data-reports/curriculum-reports/interactive-data/curriculum-inventory",
+                    "description": "Designing healthcare analytics courses."
+                },
+                {
+                    "title": "Teaching Statistics Best Practices",
+                    "type": "article",
+                    "url": "https://www.amstat.org/education/guidelines-for-assessment-and-instruction-in-statistics-education-(gaise)-reports",
+                    "description": "Evidence-based teaching methods."
+                },
+                {
+                    "title": "Grant Writing for Data Science",
+                    "type": "guide",
+                    "url": "https://www.nsf.gov/funding/",
+                    "description": "Securing research funding."
+                },
+                {
+                    "title": "Course Material Repository",
+                    "type": "repository",
+                    "url": "https://www.oercommons.org/",
+                    "description": "Open educational resources."
+                },
+                {
+                    "title": "Research Reproducibility Tools",
+                    "type": "toolkit",
+                    "url": "https://www.cos.io/",
+                    "description": "Ensuring reproducible research."
+                }
+            ]
+        },
+        "healthcare_professional": {
+            "supplementary": [
+                {
+                    "title": "Medical Statistics Made Easy",
+                    "type": "book",
+                    "url": "https://www.ncbi.nlm.nih.gov/books/NBK43741/",
+                    "description": "Statistics for clinicians."
+                },
+                {
+                    "title": "Clinical ML Applications Review",
+                    "type": "article",
+                    "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00208-9/fulltext",
+                    "description": "ML applications in clinical practice."
+                },
+                {
+                    "title": "HIPAA Compliance Guide",
+                    "type": "pdf",
+                    "url": "https://www.hhs.gov/hipaa/for-professionals/",
+                    "description": "Privacy requirements for healthcare data."
+                },
+                {
+                    "title": "Clinical Decision Support Tools",
+                    "type": "toolkit",
+                    "url": "https://www.ahrq.gov/cpi/about/otherwebsites/clinical-decision-support/index.html",
+                    "description": "Implementing CDS systems."
+                },
+                {
+                    "title": "FDA AI/ML Guidelines",
+                    "type": "regulation",
+                    "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device",
+                    "description": "Regulatory framework for medical AI."
+                }
+            ]
+        },
+        "lay_representative": {
+            "supplementary": [
+                {
+                    "title": "Plain Language Statistics Guide",
+                    "type": "article",
+                    "url": "https://www.cdc.gov/healthliteracy/plainlanguage/index.html",
+                    "description": "Understanding statistics without jargon."
+                },
+                {
+                    "title": "Data Literacy for Everyone",
+                    "type": "course",
+                    "url": "https://www.datacamp.com/courses/data-literacy-fundamentals",
+                    "description": "Building data understanding skills."
+                },
+                {
+                    "title": "No-Code ML Tools",
+                    "type": "guide",
+                    "url": "https://www.obviously.ai/",
+                    "description": "ML without programming."
+                },
+                {
+                    "title": "Community Health Resources",
+                    "type": "directory",
+                    "url": "https://www.healthypeople.gov/",
+                    "description": "Public health data and resources."
+                },
+                {
+                    "title": "Patient Advocacy Toolkit",
+                    "type": "toolkit",
+                    "url": "https://www.patientadvocate.org/",
+                    "description": "Tools for patient representatives."
+                }
+            ]
+        }
+    },
+    "assessment_tools": [
+        {
+            "title": "Statistics Competency Quiz",
+            "type": "assessment",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "description": "Evaluate your statistics knowledge level."
+        },
+        {
+            "title": "Python Skills Assessment",
+            "type": "assessment",
+            "url": "https://www.hackerrank.com/skills-verification/python",
+            "description": "Test your Python programming abilities."
+        },
+        {
+            "title": "ML Concepts Evaluation",
+            "type": "assessment",
+            "url": "https://www.coursera.org/learn/machine-learning/quiz",
+            "description": "Assess your machine learning understanding."
+        }
+    ],
+    "additional_resources": [
+        {
+            "title": "Healthcare Data Standards",
+            "type": "reference",
+            "url": "https://www.hl7.org/fhir/",
+            "description": "FHIR standards for healthcare data exchange."
+        },
+        {
+            "title": "Statistical Software Comparison",
+            "type": "guide",
+            "url": "https://www.stata.com/links/statistical-software-packages/",
+            "description": "Choosing the right statistical tool."
+        },
+        {
+            "title": "Open Healthcare Datasets",
+            "type": "directory",
+            "url": "https://healthdata.gov/",
+            "description": "Public health datasets for practice."
+        },
+        {
+            "title": "Research Ethics Guidelines",
+            "type": "regulation",
+            "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/",
+            "description": "Ethical principles for healthcare research."
+        }
+    ]
+}

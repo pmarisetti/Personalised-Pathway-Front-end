@@ -1,0 +1,223 @@
+{
+  "version": "1.0",
+  "preferences": [
+    {
+      "id": "LP1",
+      "text": "Which learning approach do you prefer when tackling complex technical concepts?",
+      "type": "single_select",
+      "options": [
+        "Step-by-step guided tutorials with clear instructions",
+        "Hands-on practice with real datasets and examples",
+        "Interactive problem-solving with immediate feedback",
+        "Self-directed exploration with resources and references"
+      ],
+      "notes": "ABC-LD Mapping: Influences Learn/Do/Build phases"
+    },
+    {
+      "id": "LP2",
+      "text": "How do you prefer to receive new information?",
+      "type": "single_select",
+      "options": [
+        "Visual presentations and diagrams",
+        "Written explanations and documentation",
+        "Video demonstrations and walkthroughs",
+        "Interactive exercises and simulations"
+      ],
+      "notes": "ABC-LD Mapping: Influences Absorb/Learn phases"
+    },
+    {
+      "id": "LP3",
+      "text": "When learning programming or statistical methods, what helps you most?",
+      "type": "single_select",
+      "options": [
+        "Working through structured exercises with solutions",
+        "Applying methods to real healthcare case studies",
+        "Collaborating with peers on group projects",
+        "Independent research and experimentation"
+      ],
+      "notes": "ABC-LD Mapping: Impacts Connect/Do phases"
+    }
+  ],
+  "modules": {
+    "statistics": {
+      "student": [
+        {
+          "id": "S_STU_Q1",
+          "text": "I am confident in calculating and interpreting basic descriptive statistics (mean, median, mode, standard deviation, variance) and understand when to apply each measure in healthcare data analysis contexts.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_STU_Q2",
+          "text": "I can interpret confidence intervals, p-values, and statistical significance in healthcare research studies and understand the practical implications of these concepts for clinical decision-making.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_STU_Q3",
+          "text": "I can design and conduct appropriate hypothesis tests (t-tests, ANOVA, chi-square tests) for healthcare research questions and correctly interpret the results within clinical contexts.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_STU_Q4",
+          "text": "I am proficient in performing regression analyses (linear, logistic, multiple regression) and can evaluate model assumptions, interpret coefficients, and assess model fit for healthcare prediction studies.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "academic": [
+        {
+          "id": "S_ACAD_Q1",
+          "text": "I regularly teach and publish research involving descriptive and inferential statistics, can critically evaluate statistical methodologies in peer-reviewed literature, and mentor others in selecting appropriate statistical approaches for complex healthcare datasets.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_ACAD_Q2",
+          "text": "I design sophisticated research studies with appropriate power calculations, can develop novel statistical methodologies, and have published methodological papers or secured grants involving advanced statistical approaches in healthcare research.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_ACAD_Q3",
+          "text": "I conduct advanced regression and modeling research, can develop and validate novel analytical approaches for healthcare outcomes research, and regularly serve as statistical consultant or methodological expert on multi-disciplinary research teams.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_ACAD_Q4",
+          "text": "I contribute to statistical methodology literature through publications and conference presentations, can peer-review advanced statistical methods, and influence field-wide statistical practices through collaborative research networks and professional leadership.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "healthcare_professional": [
+        {
+          "id": "S_HCP_Q1",
+          "text": "I can interpret descriptive statistics in clinical literature, quality improvement reports, and patient care metrics, and can communicate statistical findings effectively to clinical teams, patients, and healthcare stakeholders.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_HCP_Q2",
+          "text": "I can critically appraise clinical research studies involving statistical analyses, distinguish between clinical significance and statistical significance, and apply research evidence to inform patient care decisions and clinical protocols.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_HCP_Q3",
+          "text": "I can interpret and apply regression analyses and predictive models in clinical decision-making (such as risk calculators for cardiovascular disease, surgical outcomes, or diagnostic tools), while understanding their limitations and appropriate clinical contexts.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_HCP_Q4",
+          "text": "I can participate meaningfully in clinical research design, quality improvement projects involving statistical analysis, and can collaborate effectively with statisticians and researchers to address clinical questions through appropriate analytical approaches.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "lay_representative": [
+        {
+          "id": "S_LAY_Q1",
+          "text": "I can understand and interpret basic health statistics presented in patient information materials, medical reports, and public health communications, and can ask informed questions about statistical information relevant to my health or community health issues.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_LAY_Q2",
+          "text": "I can understand research study results and clinical trial findings as they relate to treatment decisions and health outcomes, can participate meaningfully in shared decision-making discussions with healthcare providers, and can help other patients interpret research evidence.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_LAY_Q3",
+          "text": "I can understand personalized risk assessments and predictive information provided by healthcare professionals, can use risk calculators and health prediction tools effectively, and can help other patients understand and use such information for health decision-making.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "S_LAY_Q4",
+          "text": "I can participate in patient and public involvement activities for health research, contribute patient perspectives to research design and interpretation, and can advocate for research that addresses real patient and community priorities while ensuring accessible communication of findings.",
+          "type": "likert_1_to_5"
+        }
+      ]
+    },
+    "machine_learning": {
+      "student": [
+        {
+          "id": "ML_STU_Q5",
+          "text": "I understand fundamental machine learning concepts including supervised vs. unsupervised learning, and can explain how different algorithms (decision trees, random forests, neural networks) are applied in healthcare prediction and classification tasks.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_STU_Q6",
+          "text": "I can implement basic machine learning models using Python libraries (scikit-learn), perform train/test splits, and evaluate model performance using appropriate metrics for healthcare applications.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_STU_Q7",
+          "text": "I can address advanced ML challenges including hyperparameter tuning, cross-validation, handling class imbalance, and preventing overfitting in healthcare datasets with complex characteristics.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_STU_Q8",
+          "text": "I understand the ethical considerations, interpretability requirements, and clinical validation processes necessary for implementing machine learning solutions in healthcare settings while ensuring patient safety and care quality.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "academic": [
+        {
+          "id": "ML_ACAD_Q5",
+          "text": "I conduct research on machine learning methodologies in healthcare, can critically evaluate theoretical foundations of ML approaches, and contribute to the advancement of ML applications through empirical research and algorithmic innovations.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_ACAD_Q6",
+          "text": "I develop and validate machine learning models for healthcare research publications, can architect comprehensive evaluation frameworks for clinical prediction models, and establish best practices for ML implementation through research collaborations.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_ACAD_Q7",
+          "text": "I pioneer advanced ML techniques (deep learning, ensemble methods, transfer learning) for healthcare applications, can develop domain-specific algorithms, and contribute to open-source ML tools and frameworks used by the research community.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_ACAD_Q8",
+          "text": "I lead research programs focused on ethical AI in healthcare, can establish guidelines for responsible ML implementation, and influence policy development for AI governance in medical research through publications, advisory roles, and collaborative initiatives.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "healthcare_professional": [
+        {
+          "id": "ML_HCP_Q5",
+          "text": "I understand how machine learning is applied in clinical contexts (diagnostic imaging, predictive analytics, clinical decision support), can evaluate the clinical utility of AI-based tools, and can explain AI capabilities and limitations to patients and colleagues.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_HCP_Q6",
+          "text": "I can participate in the clinical validation of machine learning models, understand performance metrics relevant to clinical applications (sensitivity, specificity, PPV, NPV), and can assess the clinical appropriateness of AI-driven recommendations.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_HCP_Q7",
+          "text": "I can lead initiatives to implement AI-based clinical decision support tools, establish protocols for AI-assisted care delivery, and can train clinical teams on the appropriate use of machine learning technologies while ensuring patient safety and care quality.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_HCP_Q8",
+          "text": "I can contribute to healthcare AI governance, participate in ethical AI committees, and can advocate for responsible AI implementation that maintains patient-centered care, addresses bias and fairness concerns, and ensures transparent decision-making processes.",
+          "type": "likert_1_to_5"
+        }
+      ],
+      "lay_representative": [
+        {
+          "id": "ML_LAY_Q5",
+          "text": "I understand how artificial intelligence and machine learning are being used in healthcare, can ask informed questions about AI-assisted care, and can help ensure that AI applications in healthcare are explained clearly and transparently to patients and communities.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_LAY_Q6",
+          "text": "I can provide meaningful input on the development and testing of AI-based healthcare tools from a patient perspective, can participate in user testing and co-design processes, and can help ensure that AI solutions are accessible and beneficial to diverse patient populations.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_LAY_Q7",
+          "text": "I can advocate for responsible AI implementation in healthcare settings, can contribute patient and community perspectives to AI ethics discussions, and can help ensure that machine learning solutions improve rather than complicate the patient experience while maintaining human connection and personalized care.",
+          "type": "likert_1_to_5"
+        },
+        {
+          "id": "ML_LAY_Q8",
+          "text": "I can lead patient advocacy efforts for ethical AI in healthcare, can influence healthcare AI policy development through community engagement, and can establish patient centred frameworks for evaluating AI implementations while ensuring equity, accessibility, and patient autonomy in AI-assisted healthcare.",
+          "type": "likert_1_to_5"
+        }
+      ]
+    }
+  }
+}
